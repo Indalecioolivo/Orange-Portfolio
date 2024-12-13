@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  header {
+    width: 100vw;
+    height: 7vh;
+    background-color: var(--primaryBlue);
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+
+    display: flex;
+  }
+  header div {
+    width: 50%;
+    border: 1px solid wheat;
+
+    display: flex;
+    align-items: center;
+  }
+  header .right-side {
+    align-items: center;
+    justify-content: flex-end;
+  }
+  header div .menu-nav {
+    margin-left: 2rem;
+    padding: 1rem;
+  }
+  header .right-side img {
+    margin-right: 2rem;
+    padding: 1rem;
+  }
+  header .right-side .user-photo {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0;
+
+    background-color: wheat;
+    border-radius: 50%;
+  }
+}
