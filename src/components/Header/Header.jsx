@@ -4,6 +4,9 @@ import MenuNav from "../../assets/menu-sandwich.png";
 import Notification from "../../assets/notification.png";
 
 export default function Header() {
+  function handleClick() {
+    console.log("Hello World");
+  }
   return (
     <header>
       <div className="left-side">
